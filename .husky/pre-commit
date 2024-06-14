@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# https://github.com/desktop/desktop/issues/12562#issuecomment-1007154382
+# npm.cmd run lint
+
+npx lint-staged
+
+npm run build
