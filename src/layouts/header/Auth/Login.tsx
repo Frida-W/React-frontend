@@ -1,7 +1,7 @@
 import React from 'react';
 
-const AuthButton = () => {
+const Login = () => {
   return <div>AuthButton</div>;
 };
 
-export default AuthButton;
+export default Login;

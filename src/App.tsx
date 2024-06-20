@@ -8,8 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <main className="w-full relative z-[2] sm:ml-16 bg-[#191d3e] flex flex-col md:flex-row sm:rounded-l-2xl overflow-hidden">
-        <Header></Header>
-        <Page></Page>
+        <div className="w-full">
+          <Header></Header>
+          <Page></Page>
+        </div>
       </main>
     </BrowserRouter>
   );
