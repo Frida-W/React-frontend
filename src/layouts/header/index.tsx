@@ -3,7 +3,7 @@ import LanguageBar from './LanguageBar';
 import Tag from './Tag';
 import { ChatIcon, DiceIcon, PercentIcon, SwordsIcon } from '@/icons';
 import { BriefcaseIcon, Cog8ToothIcon } from '@heroicons/react/24/solid';
-import { Logo } from '@/components/Logo';
+// import { Logo } from '@/components/Logo';
 import Login from './Auth/Login';
 import xmaxHeaderBg from '@/assets/summer/header-bg-summer.png';
 import { IconButton } from '@/components/IconButton';
@@ -35,7 +35,7 @@ const tagValues = [
 const index = () => {
   return (
     <div className="relative flex items-center w-full py-6 px-3 lg:px-4 transition-all gap-3 sm:gap-4">
-      <Logo></Logo>
+      {/* <Logo></Logo> */}
 
       <div
         className="absolute w-56 h-28 top-0 left-0 pointer-events-none"
