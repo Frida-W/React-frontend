@@ -47,7 +47,7 @@ const index = () => {
           <Tag key={tag.to} icon={tag.icon} to={tag.to} title={tag.title}></Tag>
         ))}
       </div>
-      s
+
       <div className="flex ml-auto">
         <Login />
       </div>
