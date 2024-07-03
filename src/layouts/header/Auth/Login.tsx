@@ -1,10 +1,10 @@
-import { Button } from '@/components/Button';
-import { Dialog } from '@/components/Dialog';
+import { Button } from '@/components/Button.tsx';
+import { Dialog } from '@/components/Dialog.tsx';
 import { ModalTrigger } from '@/components/Modal';
-import TextField from '@/components/TextField';
 import React, { useState } from 'react';
 import { GOOGLE_LOGIN_URL } from '@/services';
-import { Divider } from '@/components/Divider';
+import { Divider } from '@/components/Divider.tsx';
+import TextField from '@/components/TextField.tsx';
 
 const Authorization = () => {
   const googleLogin = () => window.location.assign(GOOGLE_LOGIN_URL);
